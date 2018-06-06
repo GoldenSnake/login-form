@@ -1,0 +1,145 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(127.26deg, rgba(111, 177, 254, 0.81) 0%, rgba(130, 0, 133, 0.68) 100.51%);
+    min-height: 100%;   
+}
+
+.input-form {    
+    background: #FFFFFF;
+    border-radius: 5px; 
+    width: 388px;
+    height: 448px;
+    margin: 10% auto; 
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 6px 55px rgba(0, 0, 0, 0.25);
+/*
+    top: 200px;
+    left: 450px;
+*/
+    }
+
+.circle1 {
+    background: #A880B7;
+    width: 127px;
+    height: 120px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    position: absolute;
+    left: -24.74px;
+    top: -30.84px;
+}
+
+.circle2 {
+    background: #d66782;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    width: 201.73px;
+    height: 190.61px;
+    border-radius: 50%;
+    left: 244.43px;
+    top: -31.21px;
+}
+
+.circle3 {
+    background: #DF76CE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    width: 152.51px;
+    height: 144.11px;
+    border-radius: 50%;
+    left: 196.77px;
+    top: -57.12px;
+}
+
+.circle4 {
+    background: #8959D9;
+    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    border-radius: 50%;
+    width: 84.59px;
+    height: 79.92px;
+    left: 314.02px;
+    top: 38.43px;
+}
+
+input {
+    position: absolute;
+    width: 312px;
+    height: 44px;
+    background: #E5E1E1;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 0 10px;
+    color: darkslateblue;
+}
+
+.name {
+	left: 39px;
+    top: 165px;
+}
+
+.pass {
+	left: 39px;
+    top: 263px;
+}
+
+.btn {
+	width: 300px;
+    height: 50px;
+    left: 44px;
+    top: 374px;
+    background: #9B51E0;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    color: bisque;
+    font-size: 16px;
+    letter-spacing: 0.15em;
+    text-shadow: 0px 5px 6px rgba(0, 0, 0, 0.26);
+    }
+
+.btn:hover {	
+    background: linear-gradient(73.97deg, #AB69C2 11.17%, #582786 105.87%);
+    }
+
+.btn:active {	
+    background: #582786;
+    }
+
+
+.n, .p {
+    position: relative;
+    font-family: Roboto;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(96, 115, 136, 0.4);
+   }
+
+.n {
+   left: 39px;
+    top: 141px; 
+}
+
+.p {
+   left: -44px;
+    top: 240px; 
+}
+
+
+.sign {
+    position: relative;
+    left: -5px;
+    top: 80px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #607388;
+}
+
+
